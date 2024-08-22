@@ -20,11 +20,19 @@ export default function Header() {
                     <nav aria-label="Global" className="flex items-center justify-between lg:justify-start">
                         <a href="#" className="-m-1.5 p-1.5">
                             <span className="sr-only">Your Company</span>
-                            <img
-                                alt="Your Company"
-                                src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
-                                className="h-8 w-auto"
-                            />
+                            <svg viewBox="0 0 462 396" className={'h-8 w-auto text-blue-400'}>
+                                <g clip-path="url(#a)" fill-rule="evenodd" clip-rule="evenodd">
+                                    <path
+                                        d="M347.964 69.022h-76.278L157.267 267.205l-38.141-66.061L233.545 2.964h228.838L233.545 399.323l-38.14-66.061zM0 0h152.559L76.281 132.118z"
+                                        fill="currentColor"/>
+                                </g>
+                                <defs>
+                                    <clipPath id="a">
+                                        <path d="M0 0h462v396H0z" fill="#fff"/>
+                                    </clipPath>
+                                </defs>
+                            </svg>
+
                         </a>
                         <button
                             type="button"
@@ -52,11 +60,18 @@ export default function Header() {
                     <div className="flex items-center justify-between">
                         <a href="#" className="-m-1.5 p-1.5">
                             <span className="sr-only">Your Company</span>
-                            <img
-                                alt=""
-                                src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
-                                className="h-8 w-auto"
-                            />
+                            <svg viewBox="0 0 462 396" className={'h-8 w-auto text-blue-400'}>
+                                <g clip-path="url(#a)" fill-rule="evenodd" clip-rule="evenodd">
+                                    <path
+                                        d="M347.964 69.022h-76.278L157.267 267.205l-38.141-66.061L233.545 2.964h228.838L233.545 399.323l-38.14-66.061zM0 0h152.559L76.281 132.118z"
+                                        fill="currentColor"/>
+                                </g>
+                                <defs>
+                                    <clipPath id="a">
+                                        <path d="M0 0h462v396H0z" fill="#fff"/>
+                                    </clipPath>
+                                </defs>
+                            </svg>
                         </a>
                         <button
                             type="button"
