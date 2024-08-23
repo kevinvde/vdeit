@@ -4,49 +4,11 @@ import Hero from "../components/Hero.astro";
 import Features from "../components/Features.astro";
 import TrustedBy from "../components/TrustedBy.astro";
 
-const images = [
-    {
-        src: "https://tailwindui.com/img/logos/tuple-logo-gray-900.svg",
-        alt: "Tuple",
-        width: 105,
-        height: 48
-    },
-    {
-        src: "https://tailwindui.com/img/logos/reform-logo-gray-900.svg",
-        alt: "Reform",
-        width: 104,
-        height: 48
-    },
-    {
-        src: "https://tailwindui.com/img/logos/savvycal-logo-gray-900.svg",
-        alt: "SavvyCal",
-        width: 140,
-        height: 48
-    },
-    {
-        src: "https://tailwindui.com/img/logos/laravel-logo-gray-900.svg",
-        alt: "Laravel",
-        width: 136,
-        height: 48
-    },
-    {
-        src: "https://tailwindui.com/img/logos/transistor-logo-gray-900.svg",
-        alt: "Transistor",
-        width: 158,
-        height: 48
-    },
-    {
-        src: "https://tailwindui.com/img/logos/statamic-logo-gray-900.svg",
-        alt: "Statamic",
-        width: 147,
-        height: 48
-    }
-];
+import * as data from '../data/home.md'
 ---
 
-<Layout title="Welcome to Astro.">
-    <Hero/>
-    <Features/>
-    <TrustedBy title="Vertrouwd door de meest inovatieve teams" images={images}
-               description="Als freelance IT-specialist bied ik op maat gemaakte oplossingen met een persoonlijke touch. Met mijn ervaring in websiteontwikkeling en IT-ondersteuning zorg ik ervoor dat jouw unieke behoeften worden vervuld. Of je nu een nieuwe website wilt of technische hulp nodig hebt, ik sta klaar om je te helpen met deskundigheid en aandacht."/>
+<Layout title={data.frontmatter.title}>
+    <Hero />
+    <Features />
+    <TrustedBy title={data.frontmatter.trustedBy.title} images={data.frontmatter.trustedBy.images} description={data.frontmatter.trustedBy.description} />
 </Layout>

@@ -3,11 +3,11 @@ import {Dialog, DialogPanel} from '@headlessui/react'
 import {Bars3Icon, XMarkIcon} from '@heroicons/react/24/outline'
 
 const navigation = [
-    {name: 'Home', href: '#'},
-    {name: 'Over mij', href: '#'},
-    {name: 'Diensten', href: '#'},
-    {name: 'Portfolio', href: '#'},
-    {name: 'Prijzen', href: '#'},
+    {name: 'Home', href: '/'},
+    {name: 'Over mij', href: '/about'},
+    {name: 'Diensten', href: '/services'},
+    {name: 'Contact', href: '/contact'},
+    {name: 'Prijzen', href: '/prices'},
 ]
 
 export default function Header() {
