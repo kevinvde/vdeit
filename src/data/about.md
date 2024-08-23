@@ -1,6 +1,6 @@
 ---
 title: Over mij
-photo: src/assets/images/me.jpeg
+photo: public/assets/images/me.jpeg
 intro: Al van jongs af aan ben ik gefascineerd door technologie. Ik schreef mijn
   eerste regels code toen ik 8 jaar oud was, op de oude computer die mijn ouders
   in huis hadden gehaald. Sindsdien ben ik voortdurend bezig geweest met het
