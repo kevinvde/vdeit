@@ -2,6 +2,7 @@ local_backend: true
 
 backend:
   name: git-gateway
+  branch: main
 
 media_folder: "public/assets/images" # Location where files will be stored in the repo
 public_folder: "public/assets/images" # The src attribute for uploaded media
