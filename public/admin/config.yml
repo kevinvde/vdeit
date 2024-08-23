@@ -2,7 +2,7 @@ local_backend: true
 
 backend:
   name: git-gateway
-  branch: main
+  branch: master
 
 media_folder: "public/assets/images" # Location where files will be stored in the repo
 public_folder: "public/assets/images" # The src attribute for uploaded media
@@ -28,6 +28,5 @@ collections:
         fields:
           - { label: Title, name: title, widget: string }
           - { label: Photo, name: photo, widget: image }
-
           - { label: Intro, name: intro, widget: string }
           - { label: Body, name: body, widget: markdown }
