@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: vdeit/master
+  branch: kevinvde/master
 
 media_folder: "public/assets/images" # Location where files will be stored in the repo
 public_folder: "public/assets/images" # The src attribute for uploaded media
