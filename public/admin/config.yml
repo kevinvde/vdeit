@@ -1,4 +1,4 @@
-#local_backend: true
+local_backend: true
 
 backend:
   name: git-gateway
@@ -72,3 +72,37 @@ collections:
                   - { name: "linkHref", label: "Link Href", widget: "string" }
                   - { name: "imgSrc", label: "Image Source", widget: "image" }
                   - { name: "imgAlt", label: "Image Alt Text", widget: "string" }
+
+      - label: "Pricing Page"
+        name: "pricing"
+        file: "src/data/pricing.md"
+        fields:
+          - { name: "title", label: "Title", widget: "string" }
+          - { name: "description", label: "Description", widget: "text" }
+          - { name: "intro", label: "Intro", widget: "text" }
+          - label: "Tiers"
+            name: "tiers"
+            widget: "list"
+            fields:
+              - { name: "id", label: "ID", widget: "string" }
+              - { name: "name", label: "Name", widget: "string" }
+              - { name: "price", label: "Price", widget: "string" }
+              - { name: "price_frequency", label: "Price Frequency", widget: "string" }
+              - { name: "description", label: "Description", widget: "text" }
+              - label: "Features"
+                name: "features"
+                widget: "list"
+                field: { label: "Feature", name: "feature", widget: "string" }
+              - { name: "cta_text", label: "CTA Text", widget: "string" }
+              - { name: "cta_link", label: "CTA Link", widget: "string" }
+          - label: "FAQ"
+            name: "faq"
+            widget: "object"
+            fields:
+              - { name: "title", label: "Title", widget: "string" }
+              - label: "Questions"
+                name: "questions"
+                widget: "list"
+                fields:
+                  - { name: "question", label: "Question", widget: "string" }
+                  - { name: "answer", label: "Answer", widget: "text" }

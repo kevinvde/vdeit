@@ -21,41 +21,44 @@ trustedBy:
     je nu een nieuwe website wilt of technische hulp nodig hebt, ik sta klaar om
     je te helpen met deskundigheid en aandacht.
   images:
-    - src: https://tailwindui.com/img/logos/tuple-logo-gray-900.svg
-      alt: Tuple
-    - src: https://tailwindui.com/img/logos/reform-logo-gray-900.svg
-      alt: Reform
-    - src: https://tailwindui.com/img/logos/savvycal-logo-gray-900.svg
-      alt: SavvyCal
-    - src: https://tailwindui.com/img/logos/laravel-logo-gray-900.svg
-      alt: Laravel
-    - src: https://tailwindui.com/img/logos/transistor-logo-gray-900.svg
-      alt: Transistor
-    - src: https://tailwindui.com/img/logos/statamic-logo-gray-900.svg
-      alt: Statamic
+    - src: public/assets/images/hva.png
+      alt: Haven van Antwerpen
+    - src: public/assets/images/inbo.png
+      alt: Instituut voor natuur en bos
+    - src: public/assets/images/persgroep.png
+      alt: De persgroep
+    - src: public/assets/images/thomascook.png
+      alt: Thomas Cook
+    - src: public/assets/images/vmm.png
+      alt: Vlaamse Milieumaatschappij
 features:
-  sectionTitle: "Sneller online"
-  sectionSubtitle: "Alles wat je nodig hebt om je project te lanceren"
-  sectionDescription: "Als freelance IT-specialist bied ik een reeks diensten aan om je bedrijf te ondersteunen. Of je nu een website, software op maat, of strategisch IT-advies nodig hebt, ik ben er om je te helpen."
+  sectionTitle: Sneller online
+  sectionSubtitle: Alles wat je nodig hebt om je project te lanceren
+  sectionDescription: Als freelance IT-specialist bied ik een reeks diensten aan
+    om je bedrijf te ondersteunen. Of je nu een website, software op maat, of
+    strategisch IT-advies nodig hebt, ik ben er om je te helpen.
   services:
-    - title: "Webontwikkeling"
-      description: "Professionele, responsieve websites die niet alleen visueel aantrekkelijk zijn, maar ook goed presteren. Van bedrijfswebsites tot e-commerce platforms."
-      linkText: "Meer informatie"
+    - title: Webontwikkeling
+      description: Professionele, responsieve websites die niet alleen visueel
+        aantrekkelijk zijn, maar ook goed presteren. Van bedrijfswebsites tot
+        e-commerce platforms.
+      linkText: Meer informatie
       linkHref: "#"
-      imgSrc: "/path/to/webontwikkeling-icon.svg" # replace with the actual path to your SVG file
-      imgAlt: "Webontwikkeling icon" # Alt text for accessibility
-
-    - title: "Softwareontwikkeling op maat"
-      description: "Op maat gemaakte softwareoplossingen die aansluiten bij de specifieke behoeften van je bedrijf. Verhoog efficiëntie met hoogwaardige software."
-      linkText: "Meer informatie"
+      imgSrc: /path/to/webontwikkeling-icon.svg
+      imgAlt: Webontwikkeling icon
+    - title: Softwareontwikkeling op maat
+      description: Op maat gemaakte softwareoplossingen die aansluiten bij de
+        specifieke behoeften van je bedrijf. Verhoog efficiëntie met
+        hoogwaardige software.
+      linkText: Meer informatie
       linkHref: "#"
-      imgSrc: "/path/to/softwareontwikkeling-icon.svg" # replace with the actual path to your SVG file
-      imgAlt: "Softwareontwikkeling icon" # Alt text for accessibility
-
-    - title: "IT-consultancy"
-      description: "Strategisch IT-advies en begeleiding om je technologie optimaal te benutten. Zorg dat je bedrijf klaar is voor de toekomst."
-      linkText: "Meer informatie"
+      imgSrc: /path/to/softwareontwikkeling-icon.svg
+      imgAlt: Softwareontwikkeling icon
+    - title: IT-consultancy
+      description: Strategisch IT-advies en begeleiding om je technologie optimaal te
+        benutten. Zorg dat je bedrijf klaar is voor de toekomst.
+      linkText: Meer informatie
       linkHref: "#"
-      imgSrc: "/path/to/it-consultancy-icon.svg" # replace with the actual path to your SVG file
-      imgAlt: "IT Consultancy icon" # Alt text for accessibility
+      imgSrc: /path/to/it-consultancy-icon.svg
+      imgAlt: IT Consultancy icon
 ---
