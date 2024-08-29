@@ -11,8 +11,6 @@ site_url: https://vdeit.com
 editor:
   preview: false
 
-show_preview_links: true
-
 media_folder: "public/assets/images" # Location where files will be stored in the repo
 public_folder: "public/assets/images" # The src attribute for uploaded media
 
