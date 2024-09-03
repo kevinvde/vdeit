@@ -13,7 +13,7 @@ const { title, description, images } = Astro.props;
             </div>
             <div class="mx-auto grid w-full max-w-xl grid-cols-2 items-center gap-y-12 sm:gap-y-14 lg:mx-0 lg:max-w-none lg:pl-8">
                 {images.map(({ src, alt }) => (
-                        <img class="max-h-12 w-full object-contain object-left" src={src.photo.replace('public', ''} alt={alt} />
+                        <img class="max-h-12 w-full object-contain object-left" src={src.photo.replace('public', '')} alt={alt} />
                 ))}
             </div>
         </div>
