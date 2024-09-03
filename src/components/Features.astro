@@ -16,7 +16,7 @@ import * as data from '../data/home.md'
                             <dt class="flex items-center gap-x-3 text-base font-semibold leading-7 text-gray-900">
                                 {/* Use the img tag to render the icon */}
                                 <img
-                                        src={service.imgSrc}
+                                        src={service.imgSrc.replace('public/', '')}
                                         alt={service.imgAlt}
                                         class="h-5 w-5 flex-none text-indigo-600"
                                 />
