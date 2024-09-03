@@ -28,7 +28,9 @@ import Layout from "../layouts/Layout.astro";
             <p class="mt-2 text-lg leading-8 text-gray-600">Aute magna irure deserunt veniam aliqua magna enim
                 voluptate.</p>
         </div>
-        <form name="contact" method="POST" data-netlify="true" class="mx-auto mt-16 max-w-xl sm:mt-20">
+        <form method="POST" data-netlify="true" class="mx-auto mt-16 max-w-xl sm:mt-20">
+            <input type="hidden" name="contact" value="contact" />
+
             <div class="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
                 <div>
                     <label for="first-name" class="block text-sm font-semibold leading-6 text-gray-900">First
@@ -101,10 +103,6 @@ import Layout from "../layouts/Layout.astro";
                                   class="h-4 w-4 translate-x-0 transform rounded-full bg-white shadow-sm ring-1 ring-gray-900/5 transition duration-200 ease-in-out"></span>
                         </button>
                     </div>
-                    <label class="text-sm leading-6 text-gray-600" id="switch-1-label">
-                        By selecting this, you agree to our
-                        <a href="#" class="font-semibold text-indigo-600">privacy&nbsp;policy</a>.
-                    </label>
                 </div>
             </div>
             <div class="mt-10">
