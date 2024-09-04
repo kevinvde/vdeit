@@ -8,7 +8,7 @@ const { year, companyName, socialLinks } = Astro.props;
             {socialLinks.map(({ href, label, svgPath }) => (
                     <a href={href} class="text-gray-400 hover:text-gray-500" aria-label={label}>
                         <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                            <path fill-rule="evenodd" d={svgPath} clip-rule="evenodd" />
+                            <path fillRule="evenodd" d={svgPath} clipRule="evenodd" />
                         </svg>
                     </a>
             ))}

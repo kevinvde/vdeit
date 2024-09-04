@@ -14,6 +14,39 @@ editor:
 media_folder: "public/assets/images" # Location where files will be stored in the repo
 public_folder: "public/assets/images" # The src attribute for uploaded media
 
+fields:
+  - label: "SEO"
+    name: "seo"
+    widget: "object"
+    fields: &seo
+      - { name: "title", label: "Title", widget: "string" }
+      - { name: "description", label: "Description", widget: "text" }
+      - { name: "canonical", label: "Canonical URL", widget: "string" }
+      - label: "Open Graph"
+        name: "openGraph"
+        widget: "object"
+        fields:
+          - { name: "url", label: "URL", widget: "string" }
+          - { name: "title", label: "Title", widget: "string" }
+          - { name: "description", label: "Description", widget: "text" }
+          - label: "Images"
+            name: "images"
+            widget: "list"
+            fields:
+              - { name: "url", label: "Image URL", widget: "string" }
+              - { name: "width", label: "Width", widget: "number" }
+              - { name: "height", label: "Height", widget: "number" }
+              - { name: "alt", label: "Alt Text", widget: "string" }
+              - { name: "type", label: "Type", widget: "string", required: false }
+          - { name: "site_name", label: "Site Name", widget: "string" }
+      - label: "Twitter"
+        name: "twitter"
+        widget: "object"
+        fields:
+          - { name: "handle", label: "Twitter Handle", widget: "string" }
+          - { name: "site", label: "Site Twitter", widget: "string" }
+          - { name: "cardType", label: "Card Type", widget: "string" }
+
 collections:
   - label: "Pages"
     name: "pages"
@@ -27,6 +60,7 @@ collections:
           - { label: Photo, name: photo, widget: image }
           - { label: Intro, name: intro, widget: string }
           - { label: Body, name: body, widget: markdown }
+          - { label: "SEO", name: "seo", widget: "object", collapsed: true, fields: *seo }
       - label: "Home Page"
         name: "home"
         file: "src/data/home.md"
