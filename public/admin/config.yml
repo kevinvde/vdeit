@@ -111,3 +111,12 @@ collections:
                 fields:
                   - { name: "question", label: "Question", widget: "string" }
                   - { name: "answer", label: "Answer", widget: "text" }
+
+      - label: "Contact Page"
+        name: "contact"
+        file: "src/data/contact.md"
+        fields:
+          - { label: "Page Title", name: "pageTitle", widget: "string" }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Subtitle", name: "subtitle", widget: "text" }
+          - { label: "Button Text", name: "buttonText", widget: "string" }

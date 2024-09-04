@@ -44,7 +44,7 @@ features:
         e-commerce platforms.
       linkText: Meer informatie
       linkHref: "#"
-      imgSrc: /public/assets/images/webontwikkeling-icon.svg
+      imgSrc: public/assets/images/globe-icon.svg
       imgAlt: Webontwikkeling icon
     - title: Softwareontwikkeling op maat
       description: Op maat gemaakte softwareoplossingen die aansluiten bij de
@@ -52,13 +52,13 @@ features:
         hoogwaardige software.
       linkText: Meer informatie
       linkHref: "#"
-      imgSrc: /public/assets/images/webontwikkeling-icon.svg
+      imgSrc: public/assets/images/code-bracket-icon.svg
       imgAlt: Softwareontwikkeling icon
     - title: IT-consultancy
       description: Strategisch IT-advies en begeleiding om je technologie optimaal te
         benutten. Zorg dat je bedrijf klaar is voor de toekomst.
       linkText: Meer informatie
       linkHref: "#"
-      imgSrc: /public/assets/images/webontwikkeling-icon.svg
+      imgSrc: public/assets/images/user-group-icon.svg
       imgAlt: IT Consultancy icon
 ---
