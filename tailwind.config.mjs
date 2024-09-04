@@ -2,6 +2,7 @@
 
 import typographyStyles from './typography'
 import typographyPlugin from '@tailwindcss/typography'
+import formsPlugin from '@tailwindcss/forms'
 
 
 export default {
@@ -25,6 +26,6 @@ export default {
 		},
 		extend: {},
 	},
-	plugins: [typographyPlugin],
+	plugins: [typographyPlugin, formsPlugin],
 
 }
