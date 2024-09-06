@@ -15,7 +15,7 @@ seo:
     title: "Over mij - Freelance IT-specialist Kevin"
     description: "Kevin is een ervaren freelance IT-specialist die bedrijven helpt hun digitale ideeën tot leven te brengen. Lees meer over zijn achtergrond en expertise."
     images:
-      - url: "https://www.vdeit.com/public/assets/images/me.jpeg"
+      - url: "https://www.vdeit.com/assets/images/me.jpeg"
         width: 800
         height: 600
         alt: "Kevin - Freelance IT-specialist"
