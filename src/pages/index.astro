@@ -8,8 +8,15 @@ import * as data from '../data/home.md'
 
 import { AstroSeo } from '@astrolib/seo';
 ---
+<AstroSeo
+        title={data.frontmatter.seo.title}
+        description={data.frontmatter.seo.description}
+        canonical={data.frontmatter.seo.canonical}
+        openGraph={data.frontmatter.seo.openGraph}
+        twitter={{...data.frontmatter.seo.twitter}}
+/>
 
-<Layout title={data.frontmatter.title}>
+<Layout>
     <Hero />
     <Features />
     <TrustedBy title={data.frontmatter.trustedBy.title} images={data.frontmatter.trustedBy.images} description={data.frontmatter.trustedBy.description} />
